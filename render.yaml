@@ -3,7 +3,7 @@ services:
     name: render-engine
     env: docker
     plan: free
-    region: oregon # or singapore / frankfurt
+    region: singapore # or singapore / frankfurt
     dockerfilePath: Dockerfile
     healthCheckPath: /health
     autoDeploy: true
